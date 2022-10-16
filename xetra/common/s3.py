@@ -47,10 +47,11 @@ class S3BucketConnector():
         return files
 
     def read_csv_as_df(self):
-        pass
+        self._logger.info('tolga info')
 
     def write_df_to_s3(self):
         pass
+    
  
 
 
